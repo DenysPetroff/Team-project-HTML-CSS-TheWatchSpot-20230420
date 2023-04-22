@@ -1,5 +1,8 @@
 .sale {
-    background-color: var(----section-bg-color-white);
+    background-color: var(--section-bg-color-cream);
+}
+.section.sale {
+    padding-bottom: 80px;
 }
 .container.sale-container    {
     width: 100%;
@@ -98,6 +101,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .section.sale {
+        padding-top: 64px;
+        padding-bottom: 128px;
+    }
     .container.sale-container {
         max-width: 736px;
         padding-left: 16px;
@@ -119,6 +126,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .section.sale {
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
     .container.sale-container {
         max-width: 1200px;
         padding-left: 12px;
